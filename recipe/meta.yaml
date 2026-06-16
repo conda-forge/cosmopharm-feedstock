@@ -1,13 +1,13 @@
 {% set name = "cosmopharm" %}
-{% set version = "0.0.1" %}
+{% set version = "0.0.25" %}
 
 package:
   name: "{{ name|lower }}"
   version: "{{ version }}"
 
 source:
-  url: https://files.pythonhosted.org/packages/4c/27/16716cfcdf52634bb1278f72c4a61c91fa921942416bfb5d355de38003cb/cosmopharm-0.0.1.tar.gz
-  sha256: f0b65e9af75a718ad8639d3bedf2b12ee4099d9738c9d04bae9007df9a08f791
+  url: https://files.pythonhosted.org/packages/7d/d7/c55bf2c2f0815f87aaf0ec4544a52b5e54e3f01bffb5c7a1df6cdfef41fa/cosmopharm-0.0.25.tar.gz
+  sha256: 023eec82fed4c9fa8f940f96f72cc61fb4e641c18c9b292351fc5f78a4312526
 
 build:
   noarch: python
